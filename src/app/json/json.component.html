@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <table border="1" id="oferta">
+      <thead class="tablehead">
+        <tr>
+          <th>NOMBRE</th>
+          <th>CORREO</th>
+          <th>CONTRASEÑA</th>
+        </tr>
+      </thead>
+      <tbody *ngFor="let oferta of ofertas">
+        <td>{{ oferta.Nombre }}</td>
+        <td>{{ oferta.Correo }}</td>
+        <td>{{ oferta.Contrasena }}</td>
+      </tbody>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Contacto</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="menu">
+      <ul>
+        <input type="button" value="Inicio" routerLink="/index" />
+      </ul>
+    </div>
+    <div class="container-form">
+      <div class="info-form">
+        <h2>Contactanos</h2>
+        <p>
+          Si quieres más información sobre cualquier de nuestras ofertas
+          laborales, rellena este formulario y nos podremos en contacto contigo
+          <br />
+          lo antes posible. Muchas gracias
+        </p>
+        <a href="#"> <i class="bx bx-phone"> </i>123-456-789</a>
+        <a href="#"> <i class="bx bx-envelope"> </i>email@empleo.com</a>
+        <a href="#"> <i class="bx bxs-map"> </i>Ciudad, Manta</a>
+      </div>
+      <form autocomplete="off">
+        <input
+          type="text"
+          name="Nombre"
+          placeholder="Ingrese su nombre"
+          class="campo"
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Ingrese su correo"
+          class="campo"
+        />
+
+        <input
+          type="number"
+          name="mobile"
+          placeholder="Ingrese su número de celular"
+          class="campo"
+        />
+
+        <textarea name="mensaje" placeholder="Ingresa tu mensaje"></textarea>
+        <input
+          type="submit"
+          name="Enviar"
+          value="Enviar mensaje"
+          class="btn-enviar"
+        />
+      </form>
+    </div>
+  </body>
+</html>

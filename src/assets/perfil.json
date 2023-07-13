@@ -1,0 +1,24 @@
+{
+    "ofertas":[
+    {
+        "Nombre": "Eva Delgado",
+        "Correo": "Eva18@gmail.com",
+        "Contrasena": "12345"
+    },
+    {
+        "Nombre": "Maria Lopez",
+        "Correo": "MariaL01@gmail.com",
+        "Contrasena": "12345"
+    },
+    {
+        "Nombre": "Jose Holguin",
+        "Correo": "Josehd13@gmail.com",
+        "Contrasena": "12345"
+    },
+    {
+        "Nombre": "Damian Castillo",
+        "Correo": "Damian09c@gmail.com",
+        "Contrasena": "12345"
+    }
+    ]
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.5.0.min.js"></script>
+    <title>Oferta Laboral</title>
+  </head>
+  <body>
+    <div class="menu">
+      <table border="1" id="oferta">
+        <th>Profesion</th>
+        <th>Descripcion</th>
+        <tbody  *ngFor="let oferta of ofertas">
+          <td>{{ oferta.profesion._text }}</td>
+          <td>{{ oferta.descripcion._text }}</td>
+        </tbody>
+      </table>
+      <ul>
+        <input type="button" value="Inicio" routerLink="/index" />
+      </ul>
+    </div>
+
+    <h1 class="title">Bísqueda de ofertas Laborales - Bolsa de empleo Uleam</h1>
+    <div class="ofeotra">
+      <div class="card">
+        <img src="/assets/Computer display_Monochromatic.png" alt="" />
+        <h4>Ingeniería en Sistemas</h4>
+        <p>
+          Ingeniero en sistemas con 4 años y medio de experiencia. Además, tengo
+          conocimientos de programación y manejo avanzado del lenguaje C++.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="/assets/Analytics team_Monochromatic.png" alt="" />
+        <h4>Administración de empresa</h4>
+        <p>
+          Buscamos un ejecutivo o ejecutiva de ventas que nos ayude a buscar
+          nuevos prospectos de ventas, negociar acuerdos y mantener la
+          satisfacción del cliente.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="/assets/Designer _Two Color.png" alt="" />
+        <h4>Asesor comercial</h4>
+        <p>
+          Buscamos un coordinador o coordinadora de marketing que le apasione
+          investigar cómo otras empresas han desarrollado su marca y que pueda
+          aplicar esos conocimientos a metodologías disruptivas dentro de la
+          agencia.
+        </p>
+      </div>
+
+      <div class="card">
+        <img src="/assets/Analytics team_Monochromatic.png" alt="" />
+        <h4>Desarrollador</h4>
+        <p>
+          Buscamos un desarrollador de pagina que nos ayude a buscar nuevos
+          prospectos de paginas, negociar acuerdos y mantener la satisfacción
+          del cliente.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
